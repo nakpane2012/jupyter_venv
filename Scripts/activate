@@ -28,7 +28,10 @@ deactivate () {
     fi
 
     unset VIRTUAL_ENV
+<<<<<<< HEAD
     unset VIRTUAL_ENV_PROMPT
+=======
+>>>>>>> 74c9578 (Committing files)
     if [ ! "${1:-}" = "nondestructive" ] ; then
     # Self destruct!
         unset -f deactivate
@@ -38,7 +41,11 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
+<<<<<<< HEAD
 VIRTUAL_ENV="C:\Users\nso001\vENvs\jupyter_venv"
+=======
+VIRTUAL_ENV="C:\Users\Nakpane\vEnvs\jupyter_venv"
+>>>>>>> 74c9578 (Committing files)
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -57,8 +64,11 @@ if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
     PS1="(jupyter_venv) ${PS1:-}"
     export PS1
+<<<<<<< HEAD
     VIRTUAL_ENV_PROMPT="(jupyter_venv) "
     export VIRTUAL_ENV_PROMPT
+=======
+>>>>>>> 74c9578 (Committing files)
 fi
 
 # This should detect bash and zsh, which have a hash command that must
